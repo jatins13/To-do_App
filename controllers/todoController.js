@@ -1,7 +1,7 @@
 var bodyParser=require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({extended: false}); 
 
-var data = [{task:'get'},{task:'cook food'}, {task:'code till death'}];
+var data = [{task:'get'},{task:'cook food'},{task:'code till death'}];
 
 module.exports = function(app) {
 
