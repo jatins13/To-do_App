@@ -9,6 +9,10 @@ module.exports = function(app) {
         res.render('todo', {todos: data});
 
     });
+    app.get(('/'), function(req, res){
+        res.render('todo', {todos: data});
+
+    });
     app.post(('/todo'),urlencodedParser, function(req, res){
         data.push(req.body);
         console.log(req.body);
