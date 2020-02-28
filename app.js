@@ -10,4 +10,5 @@ app.use(express.static('./public'));
 
 todoController(app);
 
+//Start the server
 app.listen(3000);
